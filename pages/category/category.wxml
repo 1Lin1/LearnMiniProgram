@@ -1,0 +1,78 @@
+<view class="category">
+  <view class="cate-left">
+    <w-cate-tab-menu
+            id="w-cate-tab-menu"
+            categories="{{categories}}"
+            bind:menuItemClick="menuItemClick"
+    ></w-cate-tab-menu>
+  </view>
+  <view class="center-fengxi"></view>
+  <view class="cate-right">
+<!--    <scroll-view scroll-y class="scroll-view-goods">-->
+<!--      <w-cate-goodslist cateGoodsList="{{cateGoodsList}}"></w-cate-goodslist>-->
+<!--    </scroll-view>-->
+  
+    <swiper current='{{currentTab}}'
+            vertical='{{true}}'
+            duration="1"
+            class="swiper-all"
+            bindchange="swiperChange"
+    >
+      <!-- catchtouchmove 阻止弹窗后滚动穿透 -->
+      <swiper-item id="0" class="swiper-item">
+        <scroll-view scroll-y class="scroll-view">
+            <w-weipinhui goods="{{Goods.data[0]}}"></w-weipinhui>
+            <text class="goods-recommend-title">精选推荐</text>
+
+        </scroll-view>
+      </swiper-item>
+      
+      <swiper-item id="1"  class="swiper-item" class="swtwo">
+        <scroll-view scroll-y class="scroll-view">
+          <w-nanzhuang goods="{{Goods.data[2]}}"></w-nanzhuang>
+          <text class="goods-recommend-title">男装推荐</text>
+
+        </scroll-view>
+      </swiper-item>
+      
+      <swiper-item id="2"  class="swiper-item">
+        <scroll-view scroll-y class="scroll-view">
+          <w-nanzhuang goods="{{Goods.data[1]}}"></w-nanzhuang>
+          <text class="goods-recommend-title">女装推荐</text>
+
+        </scroll-view>
+      </swiper-item>
+  
+      <swiper-item id="3"  class="swiper-item">
+        <scroll-view scroll-y class="scroll-view">
+          <w-nanxie goods="{{Goods.data[3]}}"></w-nanxie>
+          <text class="goods-recommend-title">男鞋推荐</text>
+
+        </scroll-view>
+      </swiper-item>
+  
+      <swiper-item id="4"  class="swiper-item">
+        <scroll-view scroll-y class="scroll-view">
+          <w-nvxie goods="{{Goods.data[4]}}"></w-nvxie>
+          <text class="goods-recommend-title">女鞋推荐</text>
+
+        </scroll-view>
+      </swiper-item>
+  
+      
+<!--      后面样式和数据结构 如果一样 可以直接循环输出-->
+     <block wx:for="{{10}}" wx:key="index">
+       <swiper-item id="{{item}}+5"  class="swiper-item">
+         <scroll-view scroll-y class="scroll-view">
+           <w-phone goods="{{Goods.data[index + 5]}}"></w-phone>
+         </scroll-view>
+       </swiper-item>
+     </block>
+  
+    
+     
+      
+    </swiper>
+  </view>
+  <view></view>
+</view>

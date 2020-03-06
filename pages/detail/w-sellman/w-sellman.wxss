@@ -1,0 +1,24 @@
+/* pages/detail/w-sellman/w-sellman.wxss */
+.sell-man{
+  margin: 30rpx 6rpx;
+  height: 300rpx;
+  background-color: #FFFFFF;
+  border-radius: 30rpx;
+  box-shadow: 6rpx 6rpx 20rpx #eee;
+  
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.sell-left image{
+  
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.sell-left{
+  text-align: center;
+}

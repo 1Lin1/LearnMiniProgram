@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "w-nav-bar":"/components/w-nav-bar/w-nav-bar",
+    "w-tab-controll":"/components/w-tab-controll/w-tab-controll"
+  }
+}

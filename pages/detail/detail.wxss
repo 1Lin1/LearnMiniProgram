@@ -1,0 +1,68 @@
+/* pages/deatil/detail.wxss */
+
+
+.w-detail-nav-bar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  
+  z-index: 10;
+}
+
+.detail-scroll-view{
+  background-color: #eeeeee;
+  position: relative;
+  top: 100rpx;
+  bottom: 100rpx;
+  
+}
+
+.detail-recommend{
+  margin: 80rpx 0  0;
+  text-align: center;
+  background-color: #FFFFFF;
+  position: relative;
+}
+
+.title{
+  font-size: 60rpx;
+  color: #999999;
+  
+  height: 240rpx;
+  line-height: 240rpx;
+  
+}
+
+.title:before{
+  content: '';
+  height: 3rpx;
+  width: 260rpx;
+  
+  
+  
+  
+  position: absolute;
+  top:120rpx;
+  left: 0;
+  background-color: #dddddd;
+}
+
+.title:after{
+  content: '';
+  height: 3rpx;
+  width:260rpx;
+  
+  position: absolute;
+  top:120rpx;
+  right: 0;
+  background-color: #dddddd;
+}
+
+.goods-list {
+  background-color: #FFFFFF;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-evenly;
+  align-content: center;
+}

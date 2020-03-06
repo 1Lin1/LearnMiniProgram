@@ -1,0 +1,18 @@
+
+
+<w-nav-bar class="w-nav-bar" id="w-nav-bar" >
+   
+    <view slot="center" class="slot-center">
+        <block wx:for="{{titles}}" wx:key="index">
+            <text bind:tap="itemClick"
+                  data-item="{{item}}"
+                  data-index="{{index}}"
+                  class="{{currentIndex === index ?'active':''}}"
+            >{{item}}</text>
+        </block>
+    </view>
+    
+    
+    <view slot="right">右边</view>
+</w-nav-bar>
+

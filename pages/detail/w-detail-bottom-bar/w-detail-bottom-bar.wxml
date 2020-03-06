@@ -1,0 +1,20 @@
+<view class="detail-bottom-bar">
+  <view class="kefu">
+    <rich-text class="iconfont  icon-kefu" display="block"></rich-text>
+    <text >客服</text>
+  </view>
+  <view class="dianpu">
+    <rich-text class="iconfont  icon-cart-full" display="block"></rich-text>
+    <text>店铺</text>
+  </view>
+  <view class="shoucang">
+    <rich-text class="iconfont  icon-dianpu" display="block"></rich-text>
+    <text>收藏</text>
+  </view>
+  <view class="addCart" bind:tap="addToCart">
+    <text>加入购物车</text>
+  </view>
+  <view class="toBuy">
+    <text>购买</text>
+  </view>
+</view>

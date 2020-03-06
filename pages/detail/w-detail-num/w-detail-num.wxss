@@ -1,0 +1,11 @@
+/* pages/detail/w-detail-num/w-detail-num.wxss */
+.detail-num{
+  display: flex;
+  flex-direction: column;
+  margin:100rpx 0;
+
+}
+
+.detail-image{
+  border-radius: 30rpx;
+}

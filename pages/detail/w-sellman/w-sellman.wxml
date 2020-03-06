@@ -1,0 +1,15 @@
+<view class="sell-man">
+  <view class="sell-left">
+    <image src="/assets/tabbar/home.png" mode="widthFix"></image>
+    <view>
+      {{goods.shopName}}
+    </view>
+  </view>
+  
+  <view class="sell-right">
+    
+    <view>公司:{{goods.company}}</view>
+    <view>销售人:{{goods.saleMan}}</view>
+    <view>电话:{{goods.saleManPhone}}</view>
+  </view>
+</view>

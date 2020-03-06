@@ -1,0 +1,4 @@
+<view class="detail-num">
+  <image src="/assets/detail/num1.png" class="detail-image" mode="widthFix"></image>
+  <image src="/assets/detail/num2.png" mode="widthFix"></image>
+</view>

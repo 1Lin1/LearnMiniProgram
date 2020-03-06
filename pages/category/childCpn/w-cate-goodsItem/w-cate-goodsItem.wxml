@@ -1,0 +1,4 @@
+<view class="cate-goodsItem">
+  <slot name="cate-goods-item-image" class="goods-image"></slot>
+  <slot name="cate-goods-item-text" class="goods-text"></slot>
+</view>

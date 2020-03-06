@@ -1,0 +1,47 @@
+
+
+
+
+
+<scroll-view class="detail-scroll-view">
+  <!-- 顶部tabbar-->
+  
+  <view>
+    <!--商品详情-->
+    <w-detail-nav-bar class="w-detail-nav-bar"
+                      id="my-detail-nav-bar"
+                      bind:detailClick="handleDetailClick">
+    </w-detail-nav-bar>
+  </view>
+  
+  
+  <w-detail-swiper list="{{detailBanner}}"></w-detail-swiper>
+  <w-baseInfo goods="{{goods}}" ></w-baseInfo>
+  <w-sellman goods="{{goods}}"></w-sellman>
+  <w-model-show  centerImage="{{goods.centerImage}}"
+                 bind:modelShowImageLoad="modelShowImageLoad"
+                 id="model-show"
+  ></w-model-show>
+  <w-detail-num id="detail-num"></w-detail-num>
+  <w-detail-params id="detail-params"></w-detail-params>
+  
+  
+  <view class="detail-recommend" id="detailRecommend">
+    <text class="title">推荐区</text>
+  </view>
+  
+  <view class="goods-list">
+    <block wx:for="{{allGoods}}" wx:key="index">
+      <w-mygood item="{{item}}"
+      
+      
+      ></w-mygood>
+    </block>
+  </view>
+  
+
+</scroll-view>
+<w-back-top wx:if="{{isShow}}" />
+
+<w-detail-bottom-bar goodspid="{{goods.pid}}"></w-detail-bottom-bar>
+

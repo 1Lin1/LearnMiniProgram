@@ -1,0 +1,16 @@
+{
+  "usingComponents": {
+    "w-detail-nav-bar": "./w-detail-nav-bar/w-detail-nav-bar",
+    "w-baseInfo": "./w-baseInfo/w-baseInfo",
+    "w-sellman": "./w-sellman/w-sellman",
+    "w-model-show": "./w-model-show/w-model-show",
+    "w-detail-num": "./w-detail-num/w-detail-num",
+    "w-detail-params": "./w-detail-params/w-detail-params",
+    "w-detail-bottom-bar": "./w-detail-bottom-bar/w-detail-bottom-bar",
+    "w-detail-swiper": "/components/w-detail-swiper/w-detail-swiper",
+    "w-mygood": "/components/w-mygood/w-mygood",
+    "w-back-top": "/components/w-back-top/w-back-top"
+  }
+
+  
+}

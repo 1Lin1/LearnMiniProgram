@@ -1,0 +1,13 @@
+<!--pages/detail/w-baseInfo/w-baseInfo.wxml-->
+<view class="w-baseInfo">
+  <view class="base-price">
+    <text  class="nPrice">$<text class="price-num">{{goods.newPrice}}</text>起</text>
+    <text  class="oPrice">$<text class="price-num">{{goods.oldPrice}}</text>起</text>
+  
+    <text class="newSell">{{goods.descmessage}}</text>
+    <text class="collect">icon 收藏</text>
+  </view>
+  
+  <view class="base-title">{{goods.title}}</view>
+ 
+</view>

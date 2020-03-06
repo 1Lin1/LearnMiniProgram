@@ -1,0 +1,44 @@
+.category{
+  display: grid;
+  grid-template-columns: 20% 2% 77% 1% ;
+  height: 100vh;
+  width: 100vw;
+  
+
+}
+
+.cate-right{
+  font-size: 30rpx;
+  font-weight: bold;
+}
+
+.cate-left{
+  height: 100%;
+  width: 100%;
+}
+
+.cate-right{
+  height: 100%;
+  width: 100%;
+}
+
+.swiper-all
+{
+  height: 100vh;
+}
+
+
+.scroll-view{
+  height: 100vh;
+  position: relative;
+}
+
+.goods-recommend-title{
+  position: absolute;
+  padding: 10rpx 20rpx;
+  left: 30rpx;
+  top: 350rpx;
+}
+
+
+

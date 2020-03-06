@@ -1,0 +1,8 @@
+<view class="model-show">
+  <text class="title">Model Show</text>
+  <view class="model-image" >
+    <block wx:for="{{centerImage}}" wx:key="index">
+        <image src="{{item}}" mode="widthFix" bindload="modelImageLoad"></image>
+    </block>
+  </view>
+</view>

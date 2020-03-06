@@ -1,0 +1,11 @@
+<!--components/w-mygood/w-mygood.wxml-->
+<view class="goods-item" bind:tap="jumpToDetail" data-pid="{{item.pid}}">
+  <image src="{{item.image}}" mode="widthFix"></image>
+  <view class="base-info">
+    <text>{{item.title}}</text>
+    <view class="good-price">
+      <text>${{item.price}}.00</text>
+      <text>${{item.oldPrice}}.00</text>
+    </view>
+  </view>
+</view>

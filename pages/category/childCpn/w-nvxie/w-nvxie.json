@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "w-cate-goodslist": "../w-cate-goodslist/w-cate-goodslist",
+    "w-cate-goodsItem": "../w-cate-goodsItem/w-cate-goodsItem"
+  }
+}

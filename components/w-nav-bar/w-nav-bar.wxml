@@ -1,0 +1,7 @@
+
+ <view class="w-nav-bar">
+   <view class="slot-left"><slot name="left"></slot></view>
+   <view><slot name="center"></slot></view>
+   <view><slot name="right"></slot></view>
+ </view>
+

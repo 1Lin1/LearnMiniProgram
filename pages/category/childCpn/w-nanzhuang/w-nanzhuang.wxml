@@ -1,0 +1,19 @@
+<w-cate-goodslist >
+  
+  <view slot="cate-topImage"  class="goods-topImage">
+    <image src="{{goods.topImage}}" mode="widthFix">
+    
+    </image>
+  </view>
+  <!--  手机数据-->
+  
+  <block wx:for="{{goods.centerCloses}}" wx:key="index" >
+    <w-cate-goodsItem slot="cate-goodslist-slot" class="goods-Item">
+      <image slot="cate-goods-item-image"
+             src="{{item.image}}" mode="widthFix"></image>
+      <rich-text slot="cate-goods-item-text">{{item.name}}</rich-text>
+    </w-cate-goodsItem>
+  </block>
+  
+  
+</w-cate-goodslist>

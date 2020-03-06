@@ -1,0 +1,4 @@
+<view class="detail-params">
+  <text class="title">评论区</text>
+  <image src="/assets/detail/3.png" mode="widthFix"></image>
+</view>

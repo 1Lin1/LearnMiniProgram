@@ -1,0 +1,4 @@
+<!--components/w-back-top/w-back-top.wxml-->
+<view class="back-to-top" bind:tap="handleTop">
+    <image src="/assets/home/top.png"></image>
+</view>

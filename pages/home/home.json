@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "w-mygood": "/components/w-mygood/w-mygood",
+    "w-swiper": "/components/w-swiper/w-swiper",
+    "w-tab-controll": "/components/w-tab-controll/w-tab-controll",
+    "w-back-top": "/components/w-back-top/w-back-top",
+    "w-recommend": "./childcpn/w-recommend/w-recommend"
+
+  },
+  "navigationBarTitleText": "主页",
+  "enablePullDownRefresh": false
+}

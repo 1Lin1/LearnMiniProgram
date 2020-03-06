@@ -1,0 +1,44 @@
+/* pages/detail/w-detail-params/w-detail-params.wxss */
+.detail-params{
+  margin: 30rpx 0;
+  text-align: center;
+  background-color: #FFFFFF;
+  position: relative;
+  
+  
+}
+
+.title{
+  display: inline-block;
+  font-size: 60rpx;
+  color: #999999;
+  
+  height: 240rpx;
+  line-height: 240rpx;
+  
+}
+
+.title:before{
+  content: '';
+  height: 2rpx;
+  width: 220rpx;
+  
+  
+  
+  
+  position: absolute;
+  left: 10rpx;
+  top:120rpx;
+  background-color: #eeeeee;
+}
+
+.title:after{
+  content: '';
+  height: 2rpx;
+  width:220rpx;
+ 
+  position: absolute;
+  top:120rpx;
+  right: 10rpx;
+  background-color: #eeeeee;
+}

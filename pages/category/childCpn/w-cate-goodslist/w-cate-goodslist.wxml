@@ -1,0 +1,15 @@
+
+<view class="all-cate-goodslist">
+  
+  <view class="topImage">
+    <slot name="cate-topImage"></slot>
+  </view>
+  
+  <view class="cate-goodslist">
+    <slot name="cate-goodslist-slot"></slot>
+  </view>
+  
+ 
+  
+</view>
+

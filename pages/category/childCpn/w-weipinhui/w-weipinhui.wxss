@@ -1,0 +1,22 @@
+/* pages/category/childCpn/w-weipinhui/w-weipinhui.wxss */
+
+
+
+
+.goods-Item image
+{
+  width:100rpx;
+  height: 100rpx;
+}
+
+.goods-topImage image{
+  width:100%;
+  height: 100%;
+  
+  padding: 6rpx;
+  border: 4rpx solid #eee;
+  box-shadow: 4rpx4rpx #ddd;
+  
+}
+
+

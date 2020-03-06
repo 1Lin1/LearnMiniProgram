@@ -1,0 +1,20 @@
+/* pages/detail/w-detail-nav-bar/w-detail-nav-bar.wxss */
+.item-left-image{
+  width: 80rpx;
+  height: 70rpx;
+  position: relative;
+  top: 10rpx;
+ 
+}
+
+
+
+
+.slot-center text{
+  padding: 20rpx 20rpx;
+}
+
+.active{
+  color: #ff5777;
+  border-bottom: 6rpx solid #ff5777;
+}

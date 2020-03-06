@@ -1,0 +1,40 @@
+
+.w-cate-tab-menu{
+  height: 100vh;
+}
+.menu-item{
+  height: 88rpx;
+  line-height: 88rpx;
+  width: 100%;
+  text-align: center;
+  
+  font-size: 30rpx;
+  
+  border-bottom: 2rpx solid #eee;
+  
+  position: relative;
+}
+
+/*.active{*/
+/*  color: #ff5777;*/
+/*  border-left: 6rpx solid #ff5777;*/
+/*  font-weight: bolder;*/
+/*  font-size: 34rpx;*/
+/*  */
+/*}*/
+
+.active{
+  font-weight: bolder;
+}
+.active .item-text:before{
+  content: '';
+  position: absolute;
+  left: 0;
+  
+ 
+  top:25%;
+  width: 5%;
+  height: 50%;
+  background:linear-gradient(180deg,red, #FFFFFF);
+  /*background-color: linear-gradient(90deg,#ff5777,#FFFFFF);*/
+}

@@ -1,0 +1,25 @@
+{
+  "usingComponents": {
+      "w-cate-tab-menu": "/components/w-cate-tab-menu/w-cate-tab-menu",
+      "w-cate-goodslist":"./childCpn/w-cate-goodslist/w-cate-goodslist",
+
+      "w-weipinhui":"./childCpn/w-weipinhui/w-weipinhui",
+      "w-nanzhuang":"./childCpn/w-nanzhuang/w-nanzhuang",
+      "w-nvzhuang":"./childCpn/w-nvzhuang/w-nvzhuang",
+      "w-cate-baby":"./childCpn/w-cate-baby/w-cate-baby",
+      "w-cate-drink":"./childCpn/w-cate-drink/w-cate-drink",
+      "w-cate-flower":"./childCpn/w-cate-flower/w-cate-flower",
+      "w-cate-food":"./childCpn/w-cate-food/w-catefood",
+      "w-cate-jiaju":"./childCpn/w-cate-jiaju/w-cate-jiaju",
+      "w-cate-medicine":"./childCpn/w-cate-medicine/w-cate-medicine",
+      "w-cate-sport":"./childCpn/w-cate-sport/w-cate-sport",
+      "w-computer":"./childCpn/w-computer/w-computer",
+      "w-nanxie":"./childCpn/w-nanxie/w-nanxie",
+      "w-nvxie":"./childCpn/w-nvxie/w-nvxie",
+      "w-phone":"./childCpn/w-phone/w-phone",
+      "w-powerhome":"./childCpn/w-powerhome/w-powerhome"
+
+  },
+  "navigationBarTitleText": "分类",
+  "enablePullDownRefresh": false
+}
